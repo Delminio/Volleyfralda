@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#ff78aa">
+<title>VolleyFralda da Amelie 💕🏐</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<section class="card">
+<header class="hero">
+<div class="emoji">🏐 🎀 🍼</div>
+<h1>Volley<span>Fralda</span></h1>
+<h2>da <b>Amelie</b> 👑</h2>
+<p>Venha jogar, se divertir e celebrar esse momento especial! 💕</p>
+</header>
+
+<div class="details">
+<div><i>📅</i><small>DATA</small><b>11/10/2026</b><span>(domingo)</span></div>
+<div><i>⏰</i><small>HORÁRIO</small><b>16:00 às 18:00</b></div>
+<div><i>📍</i><small>LOCAL</small><b>Clube de Subtenentes e Sargentos do Exército - MT</b><span>Av. Miguel Sutil, 941<br>Barra do Pari, Cuiabá - MT<br>78040-365</span></div>
+</div>
+
+<div class="fralda"><b>🎁 &nbsp; Entrada: 1 pacote de fraldas</b><span>Tamanhos sugeridos: M, G ou XG</span><span>Sua presença já é especial, mas se puder, traga 1 pacote de fraldas! 💕</span></div>
+
+<form id="form">
+<h3>Confirme sua presença</h3>
+<p class="lead">Preencha abaixo para sabermos quem estará com a gente! 💕</p>
+
+<label>Seu nome *</label>
+<input name="nome" id="nome" placeholder="👤  Digite seu nome completo" required>
+
+<label>Você vai participar? *</label>
+<div class="options">
+<label><input type="radio" name="presenca" value="Sim, estarei lá!" required><span>😍<b>Sim!</b><small>Estarei lá!</small></span></label>
+<label><input type="radio" name="presenca" value="Não vou conseguir"><span>😢<b>Não</b><small>Não vou conseguir</small></span></label>
+</div>
+
+<div id="extra" class="hide">
+<label>Vai levar acompanhante(s)? *</label>
+<div class="options">
+<label><input type="radio" name="leva_acompanhantes" value="Sim"><span>👥<b>Sim</b><small>Vou levar</small></span></label>
+<label><input type="radio" name="leva_acompanhantes" value="Não"><span>🙋<b>Não</b><small>Vou apenas eu</small></span></label>
+</div>
+
+<div id="guests" class="hide">
+<label>Quantos acompanhantes? *</label>
+<div class="counter"><button type="button" id="minus">−</button><strong id="count">1</strong><button type="button" id="plus">+</button></div>
+<input type="hidden" name="quantidade_acompanhantes" id="countInput" value="0">
+<label>Nome dos acompanhantes <em>(opcional)</em></label>
+<input name="nomes_acompanhantes" placeholder="Digite os nomes separados por vírgula">
+</div>
+
+<label>Vai levar um mimo para o bebê? *</label>
+<div class="options">
+<label><input type="radio" name="mimo_bebe" value="Sim, vou levar um mimo!" required><span>🎁<b>Sim</b><small>Vou levar um mimo! 💕</small></span></label>
+<label><input type="radio" name="mimo_bebe" value="Não"><span>💗<b>Não</b><small>Dessa vez não vou conseguir</small></span></label>
+</div>
+</div>
+
+<input type="hidden" name="_subject" value="🏐 Nova resposta - VolleyFralda da Amelie">
+<input type="hidden" name="_template" value="table">
+<input type="hidden" name="_captcha" value="false">
+<button class="send" id="send" type="submit">✈️ &nbsp; Confirmar presença &nbsp; →</button>
+<p class="privacy">🔒 Seus dados serão usados somente para organizar o evento.</p>
+</form>
+
+<section id="success" class="success hide">
+<div class="big">🏐🎀💕</div>
+<h3>Resposta enviada!</h3>
+<p>Obrigado por responder ao <b>VolleyFralda da Amelie!</b> 💕</p>
+<div id="summary"></div>
+<button onclick="location.reload()">⌂ &nbsp; Voltar para o início</button>
+</section>
+</section>
+</main>
+<script src="script.js"></script>
+</body></html>
