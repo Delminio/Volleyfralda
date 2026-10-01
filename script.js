@@ -2,15 +2,16 @@
 // EDITE SOMENTE ESTA PARTE
 // ======================================================
 const CONFIG = {
-  nomeBebe: "NOME DA BEBÊ",
-  data: "00/00/2026",
-  horario: "00:00",
-  local: "Local do evento",
+  nomeBebe: "Amelie Camargo Delminio",
+  data: "11/10/2026",
+  horario: "16:00 as 18:00",
+  local: "lube de Subtenentes e Sargentos do Exército - MT
+Av. Miguel Sutil, 941, Barra do Pari, Cuiabá -MT, 78040-365 / Cuiabá - MT",
 
   // IMPORTANTE:
   // Troque pelo seu e-mail antes de publicar.
   // Exemplo: "seuemail@gmail.com"
-  emailDestino: "SEU_EMAIL_AQUI"
+  emailDestino: "Fhedelminio@gmail.com"
 };
 // ======================================================
 
